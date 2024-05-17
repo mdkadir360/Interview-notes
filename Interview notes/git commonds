@@ -1,0 +1,85 @@
+git init
+
+Explanation: Initializes a new Git repository in the current directory.
+Example:
+bash
+Copy code
+git init
+git clone [repository URL]
+
+Explanation: Copies a repository from a specified URL to your local machine.
+Example:
+bash
+Copy code
+git clone https://github.com/example/repository.git
+git add [file(s)]
+
+Explanation: Adds changes in the specified file(s) to the staging area.
+Example:
+bash
+Copy code
+git add file.txt
+git commit -m "[commit message]"
+
+Explanation: Records staged changes as a new commit with a descriptive message.
+Example:
+bash
+Copy code
+git commit -m "Added feature X"
+git status
+
+Explanation: Shows the current status of your working directory.
+Example:
+bash
+Copy code
+git status
+git pull
+
+Explanation: Fetches changes from a remote repository and merges them into the current branch.
+Example:
+bash
+Copy code
+git pull origin main
+git push
+
+Explanation: Pushes committed changes to a remote repository.
+Example:
+bash
+Copy code
+git push origin main
+git branch
+
+Explanation: Lists all branches in the repository.
+Example:
+bash
+Copy code
+git branch
+git checkout [branch name]
+
+Explanation: Switches to the specified branch.
+Example:
+bash
+Copy code
+git checkout feature-branch
+git merge [branch name]
+
+Explanation: Combines changes from the specified branch into the current branch.
+Example:
+bash
+Copy code
+git merge feature-branch
+git log
+
+Explanation: Displays a log of all commits with commit details.
+Example:
+bash
+Copy code
+git log
+git remote -v
+
+Explanation: Shows the remote repositories and their URLs.
+Example:
+bash
+Copy code
+git remote -v
+These commands, along with the previous ones, provide a comprehensive set of Git actions for version control. Understanding and using these commands will help you manage your codebase effectively.
